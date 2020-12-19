@@ -123,3 +123,39 @@ body {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
+
+.button {
+  font-size: 16px;
+  line-height: 26px;
+  list-style: none;
+  letter-spacing: 0.03em;
+}
+
+.work {
+  list-style: none;
+}
+
+.work h3 {
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  color: #212121;
+}
+
+.work li,
+a,
+h3 {
+  text-decoration: none;
+}
+
+.work p {
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.Studio {
+  color: #ffffff;
+}

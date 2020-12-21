@@ -9,6 +9,7 @@ body {
 }
 
 .header a:hover,
+.header a:focus,
 .header a:active {
   color: #2196f3;
 }
@@ -90,15 +91,28 @@ body {
 }
 
 .tasks h3 {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   letter-spacing: 0.03em;
+
+  color: #212121;
 }
 
 .tasks p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
   color: #757575;
+}
+
+.img {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
 }
 
 .team {
@@ -106,9 +120,10 @@ body {
 }
 
 .team h2 {
+  font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
-
+  line-height: 1.16;
+  text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
 }
@@ -116,16 +131,17 @@ body {
 .team h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
-
+  line-height: 1.18;
   letter-spacing: 0.03em;
+
   color: #212121;
 }
 .team p {
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.18;
 
   letter-spacing: 0.03em;
+
   color: #757575;
 }
 
@@ -134,52 +150,10 @@ body {
 }
 
 .footer address {
-  font-family: Roboto;
   font-style: normal;
-
   font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  line-height: 1, 71;
   color: #ffffff;
-}
-
-.footer li {
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.button {
-  font-size: 16px;
-  line-height: 26px;
-  list-style: none;
-  letter-spacing: 0.03em;
-}
-
-.work {
-  list-style: none;
-}
-
-.work h3 {
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  text-decoration: none;
-  color: #212121;
-}
-
-.work li,
-a,
-h3 {
-  text-decoration: none;
-}
-
-.work p {
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #757575;
 }
 
 .Studio {
@@ -188,4 +162,87 @@ h3 {
 
 .Studio- {
   color: #212121;
+}
+
+.portfolioo {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+  font-weight: 500;
+}
+
+.studioo {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+  font-weight: 500;
+}
+
+.work a {
+  text-decoration: none;
+}
+
+.work h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  color: #212121;
+}
+
+.work p {
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: #757575;
+}
+
+.all {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+}
+.Web-sites {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+}
+
+.Applications {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+}
+
+.Design {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+}
+
+.Marketing {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: #212121;
+}
+
+.button-type {
+  width: 145px;
+  height: 38px;
+  left: 712px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  font-family: inherit;
+}
+
+.button:hover,
+.button:active {
+  color: #2196f3;
 }
